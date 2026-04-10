@@ -1,5 +1,5 @@
-# 🎓 Smart Course Registration System
-A modern, full-featured university course registration platform built with the MERN stack (PostgreSQL, Express, React, Node.js) that connects students, faculty, and administrators. Features role-based authentication, course management, waitlist automation, and timetable conflict detection.
+# Smart Course Registration System
+A modern, full-featured university course registration platform built with the PERN stack (PostgreSQL, Express, React, Node.js) that connects students, faculty, and administrators. Features role-based authentication, course management, waitlist automation, and timetable conflict detection.
 
 ![Tech Stack](https://img.shields.io/badge/React-19.1-blue) ![Node.js](https://img.shields.io/badge/Node.js-18+-green) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Latest-blue) ![Prisma](https://img.shields.io/badge/Prisma-5.22-brightgreen)
 
@@ -21,7 +21,7 @@ A modern, full-featured university course registration platform built with the M
 - **Enroll in Courses** - One-click enrollment with automatic conflict detection
 - **Waitlist Management** - Automatic waitlist join when sections are full
 - **My Registrations** - Track all enrolled courses and their status
-- **Drop Courses** - Drop courses with automatic waitlist promotion
+- **Join Courses** - Join courses with automatic waitlist promotion.
 - **Timetable View** - Visual weekly schedule with color-coded classes
 - **Dashboard Analytics** - Overview of credits earned, enrolled courses, and upcoming classes
 - **Conflict Detection** - Automatic detection of schedule conflicts
@@ -29,10 +29,7 @@ A modern, full-featured university course registration platform built with the M
 ### For Faculty
 - **My Dashboard** - Overview of assigned sections and student counts
 - **Assigned Courses** - View all sections you're teaching with enrollment stats
-- **Student Rosters** - See all students enrolled in your sections
 - **Timetable View** - Your teaching schedule at a glance
-- **Capacity Monitoring** - Track section enrollment vs capacity with visual indicators
-- **Professional UI** - Grid-based course cards with enrollment progress bars
 
 ### For Administrators
 - **Admin Dashboard** - System-wide overview and analytics
@@ -40,7 +37,7 @@ A modern, full-featured university course registration platform built with the M
 - **Manage Sections** - Configure sections with schedules, capacity, and instructors
 - **Manage Faculty** - Add, update, and assign faculty to courses
 - **Manage Students** - Student account management
-- **Manage Terms** - Configure academic terms (Fall, Spring, Summer)
+- **Manage Terms** - Configure academic terms (Even, Odd)
 - **Manage Deadlines** - Set registration deadlines
 - **Manage Rooms** - Configure classrooms and locations
 - **Manage Schedules** - Create and assign class schedules
@@ -57,7 +54,7 @@ A modern, full-featured university course registration platform built with the M
 - **React Router DOM 7.9** - Client-side routing
 - **Axios 1.13** - HTTP client for API requests
 - **Framer Motion 12.23** - Smooth animations
-- **React Hot Toast 2.6** - Elegant notifications
+- **React Hot Toast 2.6** - Elegant notifications (Not yet implemented)
 - **Lucide React 0.546** - Beautiful icons
 - **Tailwind CSS 4.1** - Utility-first CSS framework
 - **React Big Calendar 1.19** - Calendar and timetable views
@@ -571,7 +568,7 @@ This project is open source and available under the [MIT License](LICENSE).
 =======
 A dynamic, university-level course registration platform designed to streamline the enrollment process for students, faculty, and administrators. This system goes beyond basic registration by offering **smart suggestions**, **automatic conflict detection**, **waitlist management**, and **insightful analytics**.
 
-## 🚀 Tech Stack
+## Tech Stack
 
 ### Frontend
 - **Framework:** [React 19](https://react.dev/)
@@ -596,35 +593,35 @@ A dynamic, university-level course registration platform designed to streamline 
 
 ---
 
-## ✨ Key Features
+## Key Features
 
-### 🔐 Authentication & Roles
+### Authentication & Roles
 - **Secure Login/Register:** JWT-based authentication with encrypted passwords.
 - **Role-Based Access Control (RBAC):** Distinct portals for **Students**, **Faculty**, and **Admins**.
 
-### 📚 Course & Section Management
+### Course & Section Management
 - **Multi-Section Courses:** Support for multiple sections per course with different schedules and instructors.
 - **Room Management:** Assign classrooms and manage capacity.
 - **Term Management:** Configure academic terms and registration windows.
 
-### 📝 Student Registration
+### Student Registration
 - **Browse Catalog:** Search and filter available courses.
 - **Instant Registration:** Real-time enrollment with immediate feedback.
 - **Waitlist System:** Automatic waitlist placement when sections are full.
 - **Add/Drop:** Flexible course management within defined deadlines.
 
-### 📅 Smart Scheduling
+### Smart Scheduling
 - **Timetable View:** Visual weekly calendar for students to view their schedule.
 - **Clash Detection:** Prevents scheduling conflicts (hard clashes) and warns about potential issues.
 
-### 👥 Faculty & Admin Tools
+### Faculty & Admin Tools
 - **Roster Management:** Faculty can view enrolled students.
 - **Dashboard:** Admin dashboard for managing users, courses, and system settings.
 - **Analytics:** Insights into seat usage and registration trends.
 
 ---
 
-## 🛠️ Installation and Setup
+## Installation and Setup
 
 Follow these steps to get the project running locally.
 
@@ -704,5 +701,5 @@ smart-course-registration/
 └── README.md               # Project documentation
 ```
 
-## 🤝 Contributing
+## Contributing
 Contributions are welcome! Please fork the repository and submit a pull request.
